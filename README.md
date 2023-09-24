@@ -1,2 +1,2 @@
 # min0Anim
-webminm0:  
+webminm0:  https://mhamudulislam.github.io/min0Anim/
