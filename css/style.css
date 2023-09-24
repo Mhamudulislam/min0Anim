@@ -1,0 +1,420 @@
+@font-face
+{
+    src: url(../font_style/playfair_display/static/playfairdisplay-regular.ttf);
+    font-family: playfairdisplay-regular;
+}
+@font-face
+{
+    src: url(../font_style/ubuntu/Ubuntu-Light.ttf);
+    font-family: Ubuntu-Light;
+}
+body
+{
+    font-family: playfairdisplay-regular;
+    background-size: 10%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+
+    /* animations start */
+    position: relative;
+    animation-name: colors;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    background-color: #b4ad9e;;
+    /* animations end */
+}
+header
+{
+
+    padding: 1px;
+}
+@keyframes colors
+{
+    0%{background-color: #b4ad9e;;}
+    25%{background-color: rgb(243, 205, 255);}
+    50%{background-color: rgb(194, 126, 23);}
+    75%{background-color: rgb(34, 118, 129);}
+    100%{background-color: rgb(13, 218, 149);}
+    125%{background-color: rgb(184, 18, 18);}
+    150%{background-color: rgb(255, 255, 255);}
+    175%{background-color: rgb(0, 0, 0);}
+}
+.wraping1
+{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+.logo
+{
+    margin: 0% 0 0%;
+    float: left;
+    width: 9%;
+    /* border: 1px solid; */
+}
+.logo img
+{
+    width: 100%;
+}
+.jupi
+{
+    float: left;
+    margin: 1.65% -1% 0% -6.1%;
+    width: 2.6%;
+    /* border: 1px solid red; */
+}
+.jupi img
+{
+    width: 100%;
+}
+.menubar
+{
+    float: right;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.menubar ul
+{
+    margin: 24% -331% 0% ;
+    float: right;
+}
+.menubar ul li
+{
+    padding: 0 10px;
+    list-style: none;
+    float: left;
+}
+.menubar ul li a
+{
+    font-size: 102%;
+    font-weight: 400;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* border: 1px solid transparent; */
+    transition: .5s;
+}
+.menubar ul li a:hover
+{
+    border: 1px solid #626262;
+    background-color: #b4ad9e;
+    position: relative;
+    animation-name: mcolors;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+@keyframes mcolors
+{
+    0%{background-color: #b4ad9e;}
+    25%{background-color: rgb(243, 205, 255);}
+    50%{background-color: rgb(194, 126, 23);}
+    75%{background-color: rgb(34, 118, 129);}
+    100%{background-color: rgb(13, 218, 149);}
+    125%{background-color: rgb(184, 18, 18);}
+    150%{background-color: rgb(255, 255, 255);}
+    175%{background-color: rgb(0, 0, 0);}
+}
+.menubar ul li:last-child a
+{
+    margin-right: -28%;
+}
+.newan
+{
+    width:23%;
+    height: 0px;
+    margin: 0% 0 0%;
+}
+.gokus
+{
+    float: left;
+    margin: 2% -3% 0%;
+    width: 5%;
+    /* border: 1px solid; */
+}
+.gokus img
+{
+    width: 100%;
+}
+
+
+/* warp */
+.wra
+{
+    margin: -5.5% 62%;
+    width: 36%;
+    /* border: 1px solid red; */
+}
+
+
+/* banner1 start */
+.banner_1
+{
+    /* border: 1px solid; */
+    width: 100%;
+}
+.bimg
+{
+    padding: 3% 0;
+    margin: 0 auto;
+}
+.bimg img
+{
+    width: 100%;
+}
+/* banner1 end */
+
+
+/* banner2 start */
+.artical
+{
+    margin-top: 5%;
+    /* border: 1px solid; */
+    width: 100%;
+}
+.wraping2
+{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+.articals
+{}
+.hpragraph
+{
+    font-family: Ubuntu-Light;
+    margin: 0% 0 6%;
+    color: #b4ad9e;
+    font-size:175%;
+}
+.hedline
+{
+    margin: 1% 0 0%;
+    font-size: 225%;
+    font-weight: 700;
+    color: #626262;
+}
+.pragraph
+{
+    margin: 2% 0 0%;
+    line-height: 24px;
+    color: #626262;
+    font-size:160%;
+    cursor: zoom-in;
+}
+.np
+{
+    margin: 5% 0 5%;
+}
+/* banner2 end */
+
+
+/* banner3 start */
+.banner3
+{
+    /* border: 1px solid; */
+    width: 100%;
+}
+.sborder
+{
+    margin-top: 10%;
+    float: left;
+    width: 45%;
+    /* border: 1px solid red; */
+}
+.sborder:nth-child(even)
+{
+    margin-left: 9.74%;
+}
+.imgs
+{
+    margin-bottom: 5%;
+}
+.imgs img
+{
+    width: 100%;
+}
+/* banner3 end */
+
+
+
+/* banner4 start */
+.banner4
+{
+    margin: 10% 0 10%;
+    padding: 8% 0;
+    background-color: #f0f0f0;
+}
+.wraping3
+{
+    text-align: center;
+}
+.singup
+{
+    margin-top: 0;
+    margin-bottom: 4%;
+    color: #626262;
+    font-size: 225%;
+}
+.sform
+{
+    position: relative;
+    margin: 0 auto;
+    width: 22%;
+    /* border: 1px solid red; */
+}
+.sform input
+{
+    color: #626262;
+    font-family: playfairdisplay-regular;
+    font-size: 135%;
+    width: 80%;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #333333;
+}
+.sform input:focus
+{
+    outline: none;
+}
+.sform button
+{
+    position: absolute;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    top: 20%;
+    right: -2%;
+    cursor: pointer;
+}
+.sform button:focus
+{
+    outline: none;
+}
+.sform button img
+{
+}
+/* banner4 end */
+
+
+
+
+
+/* banner5 start */
+
+/* banner5 end */
+
+
+
+
+
+
+/* banner6 start */
+.banner5
+{
+    padding: 16% 0 16%;
+}
+.wraping4
+{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0 auto;
+}
+.low
+{
+    border: 10px solid;
+    width: 12%;
+    margin: 0 auto;
+    font-size: 176%;
+    color: #626262;
+    background-color: transparent;
+}
+.low h2 a
+{
+    text-decoration: none;
+    color: #626262;
+}
+
+/* banner6 end */
+
+
+
+
+/* banner7_start */
+.banner7
+{
+    background-color: #f0f0f0;
+    padding: 2% 0 2%;
+}
+.wraping5
+{
+    text-align: center;
+    /* border: 1px solid; */
+}
+.wraping6
+{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid; */
+}
+.pfol
+{
+    /* border: 1px solid red; */
+    width: 20%;
+    float: left;
+    position: relative;
+    margin: 2% 0 0;
+}
+.pfol ul
+{
+}
+.pfol ul li
+{
+    list-style: none;
+}
+.pfol ul li a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.pfol ul li:last-child a
+{
+    position: absolute;
+    width: 15%;
+    top: 24%;
+    right: 0;
+    /* border: 1px solid; */
+}
+.ml_p
+{
+    /* border: 1px solid red; */
+    width: 44%;
+    float: right;
+    margin: 1.5% -30% 0;
+}
+.ml_p ul
+{
+    float: left;
+    width: 28%;
+}
+.ml_p ul li
+{
+    list-style: none;
+    float: left;
+    margin: 0 2%;
+}
+.ml_p ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* banner7_end */
+
+
+
+
